@@ -1,0 +1,49 @@
+<div class="ui container">
+	<homepage-menu>
+	</homepage-menu>
+	<div class="ui basic segment">
+		<h2 class="ui header">
+		  <i class="ui code grey icon"></i>
+		  <div class="content">
+		    Using our API
+		    <div class="sub header">How to connect your application to our data</div>
+		  </div>
+		</h2>
+
+	<p>NI Stat's uses Firebase to create a REST API that anyone can connect to. This allows you to use our data in your own apps and projects. As a result, your service will benefit from updates to our data.</p>
+	<h3>Get started</h3>
+	<p>Our REST API is exposed at the following URL. Response data will be in JSON.</p>
+	<pre class="meta-data">
+https://nistats-63495.firebaseio.com/.json</pre>
+	<p>You may enter the above URL in to your browser to obtain a JSON object of all chart data. However, you can also reference specific charts by referencing their ID such as /0, /1 and /2.</p>
+	<p>Most programming languages allow you to connect a REST APIs, make requests and manipulate the data from responses. To learn more about REST API's, visit Code Academy's <a href="https://www.codecademy.com/learn/learn-javascript">Javascript course</a> and their <a href="https://www.codecademy.com/apis">API courses</a>.</p>
+	<h3>Individual datasets</h3>
+	Each dataset has three top-tier objects.
+	<div class="ui list">
+		<div class="item">
+			<i class="right triangle icon"></i>
+			<div class="content">
+				<div class="header">Meta data</div>
+				<div class="description">Contains information relating to the context of the dataset such as name, publisher and source.</div>
+			</div>
+		</div>
+		<div class="item">
+			<i class="right triangle icon"></i>
+			<div class="content">
+				<div class="header">Data</div>
+				<div class="description">Actual data for each series. On our website these are plotted on charts and rendered to data tables.</div>
+			</div>
+		</div>
+		<div class="item">
+			<i class="right triangle icon"></i>
+			<div class="content">	
+				<div class="header">Options</div>
+				<div class="description">This information is only relevant our website, and relates mostly to chart configurations such as scales and tooltip filters.</div>
+			</div>
+		</div>
+	</div>
+	<h3>Simply looking for an Excel download?</h3>
+	<p>Each dataset has a data tab that allows for downloading in Excel, CSV and JSON formats.</p>
+	<a class="ui button" href="#/datasets">Go to datasets</a>
+	</div>
+</div>
