@@ -1916,6 +1916,27 @@ angular.module('belfastCos')
 				    "Semi-Detached Property": 119615,
 				    "Terrace Property": 85686,
 				    "Apartment Property": 100613
+				  },
+					{
+				    "Period": "2016 Q3",
+				    "Detached Property": 187770,
+				    "Semi-Detached Property": 121722,
+				    "Terrace Property": 86413,
+				    "Apartment Property": 97516
+				  },
+					{
+				    "Period": "2016 Q4",
+				    "Detached Property": 188060,
+				    "Semi-Detached Property": 121061,
+				    "Terrace Property": 86302,
+				    "Apartment Property": 101865
+				  },
+					{
+				    "Period": "2017 Q1",
+				    "Detached Property": 186905,
+				    "Semi-Detached Property": 121098,
+				    "Terrace Property": 85713,
+				    "Apartment Property": 97242
 				  }
 				]
 			},
