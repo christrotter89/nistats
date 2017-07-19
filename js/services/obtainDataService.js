@@ -2502,6 +2502,34 @@ angular.module('belfastCos')
 				    "Miscellaneous crimes against society": 2768,
 				    "Other fraud": 1896,
 				    "All crime": 105072
+				  },
+					{
+				    "Period": "2015/16",
+				    "Violence against the person": 35734,
+				    "Sexual offences": 3037,
+				    "Robbery": 732,
+				    "Theft": 34157,
+				    "Criminal damage": 20516,
+				    "Drug offences": 5577,
+				    "Public order offences": 1470,
+				    "Possession of weapons": 923,
+				    "Miscellaneous crimes against society": 2877,
+				    "Other fraud": 0,
+				    "All crime": 105023
+				  },
+					{
+				    "Period": "2016/17",
+				    "Violence against the person": 33360,
+				    "Sexual offences": 3158,
+				    "Robbery": 653,
+				    "Theft": 31025,
+				    "Criminal damage": 19488,
+				    "Drug offences": 5432,
+				    "Public order offences": 1216,
+				    "Possession of weapons": 890,
+				    "Miscellaneous crimes against society": 2854,
+				    "Other fraud": 0,
+				    "All crime": 98076
 				  }
 				]
 			},
