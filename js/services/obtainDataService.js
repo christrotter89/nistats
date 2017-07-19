@@ -343,7 +343,7 @@ angular.module('belfastCos')
 					valueKeyNames: ["Population"],
 					availableValueKeyNames: ["Population"],
 					publisherEmail: "census.nisra@finance-ni.gov.uk",
-					publisherWebsite: "http://www.nisra.gov.uk/demography/default.asp3.htm"
+					publisherWebsite: "https://www.nisra.gov.uk/statistics/population/mid-year-population-estimates"
 				},
 				options: {
 					elements: {
@@ -864,7 +864,11 @@ angular.module('belfastCos')
 				  {
 				    "Year": 2015,
 				    "Population": 1851600
-				  }
+				  },
+					{
+						"Year": 2016,
+						"Population": 1862100
+					}
 				]
 		    },
 		    {
@@ -1081,7 +1085,13 @@ angular.module('belfastCos')
 				    "Unemployment": "6.0",
 				    "Economically Active": "73.6",
 				    "Employed": "69.0"
-				  }
+				  },
+					{
+						"Year": 2017,
+						"Unemployment": "5.3",
+						"Economically Active": "72.6",
+						"Employed": "68.7"
+					}
 				],
 				options: {
 					 scales: {
