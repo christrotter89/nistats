@@ -2100,6 +2100,21 @@ angular.module('belfastCos')
 				    "Mid Ulster": 52272,
 				    "Newry, Mourne and Down": 68202,
 				    "Northern Ireland": 771133
+				  },
+					{
+				    "Period": 2016,
+				    "Antrim and Newtownabbey": 58151,
+				    "North Down and Ards": 70270,
+				    "Armagh, Banbridge and Craigavon": 82525,
+				    "Belfast": 156176,
+				    "Causeway Coast and Glens": 62940,
+				    "Derry and Strabane": 60459,
+				    "Fermanagh and Omagh": 48041,
+				    "Lisburn and Castlereagh": 57956,
+				    "Mid and East Antrim": 58754,
+				    "Mid Ulster": 52640,
+				    "Newry, Mourne and Down": 68614,
+				    "Northern Ireland": 776526
 				  }
 				]
 			},
