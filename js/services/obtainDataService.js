@@ -1506,6 +1506,33 @@ angular.module('belfastCos')
 				    "Services": 104.9,
 				    "Production": 105.2,
 				    "Construction": 110.7
+				  },
+					{
+				    "Period": "2016 Q2",
+				    "Composite Economic Index": 103.8,
+				    "Private sector": 106.9,
+				    "Public sector": 94.7,
+				    "Services": 105.9,
+				    "Production": 103.9,
+				    "Construction": 125.7
+				  },
+					{
+				    "Period": "2016 Q3",
+				    "Composite Economic Index": 103.1,
+				    "Private sector": 106.2,
+				    "Public sector": 94.1,
+				    "Services": 105.4,
+				    "Production": 102.7,
+				    "Construction": 124.4
+				  },
+					{
+				    "Period": "2016 Q4",
+				    "Composite Economic Index": 105.3,
+				    "Private sector": 109.0,
+				    "Public sector": 94.6,
+				    "Services": 107.1,
+				    "Production": 106.6,
+				    "Construction": 133.3
 				  }
 				],
 				options: {
