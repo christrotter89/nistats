@@ -33,7 +33,7 @@ angular.module('belfastCos')
 						valueKeyNames: ["Total inward", "Total outward"],
 						availableValueKeyNames: ["Total inward", "Total outward"],
 						publisherEmail: "ashehelpline@finance-ni.gov.uk",
-						publisherWebsite: "https://www.economy-ni.gov.uk/articles/ports-traffic"
+						publisherWebsite: "https://www.nisra.gov.uk/statistics/other-surveys/ports-traffic"
 					},
 				options: {
 		            tooltips:{
@@ -130,7 +130,12 @@ angular.module('belfastCos')
 				    "Year": 2014,
 				    "Total inward": 15742,
 				    "Total outward": 9331
-				  }
+				  },
+					{
+						"Year": 2015,
+						"Total inward": 15573,
+						"Total outward": 9739
+					}
 				]
 			},
 			
