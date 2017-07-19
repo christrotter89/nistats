@@ -314,7 +314,19 @@ angular.module('belfastCos')
 				    "City of Derry Airport": 284482,
 				    "All RoI Airports": 29535039,
 				    "Dublin Airport": 24863890
-				  }
+				  },
+					{
+						"Year": 2016,
+						"All UK Airports":269903663,
+						"Heathrow":75711130,
+						"All GB Airports Inc Heathrow":261800454,
+						"All NI Airports":8103209,
+						"George Best Belfast City Airport":2665139,
+						"Belfast International Airport":5147399,
+						"City of Derry Airport":290671,
+						"All RoI Airports":32551244,
+						"Dublin Airport":27637503
+					}
 				]
 			},
 			{
