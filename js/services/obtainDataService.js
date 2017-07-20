@@ -33,7 +33,8 @@ angular.module('belfastCos')
 						valueKeyNames: ["Total inward", "Total outward"],
 						availableValueKeyNames: ["Total inward", "Total outward"],
 						publisherEmail: "ashehelpline@finance-ni.gov.uk",
-						publisherWebsite: "https://www.nisra.gov.uk/statistics/other-surveys/ports-traffic"
+						publisherWebsite: "https://www.nisra.gov.uk/statistics/other-surveys/ports-traffic",
+						markdownFile: "ports.md"
 					},
 				options: {
 		            tooltips:{
@@ -153,7 +154,8 @@ angular.module('belfastCos')
 					valueKeyNames: ["George Best Belfast City Airport", "Belfast International Airport"],
 					availableValueKeyNames: ["George Best Belfast City Airport", "Belfast International Airport", "Dublin Airport", "Heathrow", "All NI Airports", "All RoI Airports",  "All UK Airports"],
 					publisherEmail: "tourismstatistics@finance-ni.gov.uk",
-					publisherWebsite: "https://www.economy-ni.gov.uk/publications/northern-ireland-air-passenger-flow-publications"
+					publisherWebsite: "https://www.economy-ni.gov.uk/publications/northern-ireland-air-passenger-flow-publications",
+					markdownFile: "air-passengers.md"
 				},
 				options: {
 					elements: {
@@ -343,7 +345,8 @@ angular.module('belfastCos')
 					valueKeyNames: ["Population"],
 					availableValueKeyNames: ["Population"],
 					publisherEmail: "census.nisra@finance-ni.gov.uk",
-					publisherWebsite: "https://www.nisra.gov.uk/statistics/population/mid-year-population-estimates"
+					publisherWebsite: "https://www.nisra.gov.uk/statistics/population/mid-year-population-estimates",
+					markdownFile: "population.md"
 				},
 				options: {
 					elements: {
@@ -885,7 +888,8 @@ angular.module('belfastCos')
 					publisher: "Department for the Economy",
 					publishFrequency: "1st Monday each month",
 					publisherEmail: "statistics@finance-ni.gov.uk",
-					publisherWebsite: "https://www.economy-ni.gov.uk/articles/labour-force-survey"
+					publisherWebsite: "https://www.economy-ni.gov.uk/articles/labour-force-survey",
+					markdownFile: "unemployment.md"
 				},
 				data: [
 				  {
@@ -1136,7 +1140,8 @@ angular.module('belfastCos')
 					availableValueKeyNames: ["Composite Economic Index", "Private sector", "Public sector", "Services", "Production", "Construction"],
 					publishFrequency: "1st Monday each month",
 					publisherEmail: "chris.ganley@finance-ni.gov.uk",
-					publisherWebsite: "https://www.economy-ni.gov.uk/articles/northern-ireland-composite-economic-index-nicei"
+					publisherWebsite: "https://www.economy-ni.gov.uk/articles/northern-ireland-composite-economic-index-nicei",
+					markdownFile: "economic-index.md"
 				},
 				data: [{
 				    "Period": "2006 Q1",
@@ -1568,7 +1573,8 @@ angular.module('belfastCos')
 					valueKeyNames: ["Detached Property", "Semi-Detached Property", "Apartment Property", "Terrace Property"],
 					availableValueKeyNames: ["Detached Property", "Semi-Detached Property", "Apartment Property", "Terrace Property"],
 					publisherEmail: "lps.statisticsbranch@finance-ni.gov.uk",
-					publisherWebsite: "http://www.nisra.gov.uk/HousePriceIndex/hpi.html"
+					publisherWebsite: "http://www.nisra.gov.uk/HousePriceIndex/hpi.html",
+					markdownFile: "house-prices.md"
 				},
 				options: {
 					animation: false,
@@ -1954,7 +1960,8 @@ angular.module('belfastCos')
 					valueKeyNames: ["Northern Ireland"],
 					availableValueKeyNames: ["Northern Ireland", "Antrim and Newtownabbey","North Down and Ards","Armagh, Banbridge and Craigavon","Belfast","Causeway Coast and Glens","Derry and Strabane","Fermanagh and Omagh","Lisburn and Castlereagh","Mid and East Antrim","Mid Ulster","Newry, Mourne and Down"],
 					publisherEmail: "asu@communities-ni.gov.uk",
-					publisherWebsite: "https://www.communities-ni.gov.uk/topics/housing-statistics"
+					publisherWebsite: "https://www.communities-ni.gov.uk/topics/housing-statistics",
+					markdownFile: "housing-stock.md"
 				},
 				options: {
 					animation: false,
@@ -2132,7 +2139,8 @@ angular.module('belfastCos')
 					valueKeyNames: ["GCSE - All", "A-level - All"],
 					availableValueKeyNames: ["GCSE - Non-Grammar", "GCSE - Grammar", "GCSE - All", "A-level - Non-Grammar", "A-level - Grammar", "A-level - All"],
 					publisherEmail: "statistics@education-ni.gov.uk",
-					publisherWebsite: "https://www.education-ni.gov.uk/articles/school-performance"
+					publisherWebsite: "https://www.education-ni.gov.uk/articles/school-performance",
+					markdownFile: "education.md"
 				},
 				options: {
 					animation: false,
@@ -2238,7 +2246,8 @@ angular.module('belfastCos')
 					valueKeyNames: ["All crime"],
 					availableValueKeyNames: ["All crime", "Violence against the person", "Sexual offences", "Robbery", "Theft", "Criminal damage", "Drug offences", "Public order offences", "Possession of weapons", "Miscellaneous crimes against society", "Other fraud"],
 					publisherEmail: "zCSUwebstats@psni.pnn.police.uk",
-					publisherWebsite: "https://www.psni.police.uk/inside-psni/Statistics/police-recorded-crime-statistics/"
+					publisherWebsite: "https://www.psni.police.uk/inside-psni/Statistics/police-recorded-crime-statistics/",
+					markdownFile: "crime.md"
 				},
 				options: {
 					animation: false,
@@ -2547,7 +2556,8 @@ angular.module('belfastCos')
 					valueKeyNames: [ "Applications Received", "Decisions Granted"],
 					availableValueKeyNames: ["Applications Received", "Decisions Granted"],
 					publisherEmail: "asu@communities-ni.gov.uk",
-					publisherWebsite: "https://www.communities-ni.gov.uk/topics/housing-statistics"
+					publisherWebsite: "https://www.communities-ni.gov.uk/topics/housing-statistics",
+					markdownFile: "planning-applications.md"
 				},
 				options: {
 					animation: false,
