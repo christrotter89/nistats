@@ -2633,6 +2633,11 @@ angular.module('belfastCos')
 					    "Year": "2014/15",
 					    "Applications Received": 7339,
 					    "Decisions Granted": 5974
+					  },
+						{
+					    "Year": "2015/16",
+					    "Applications Received": 7192,
+					    "Decisions Granted": 6143
 					  }
 					]
 			}
